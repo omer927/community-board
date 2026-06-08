@@ -1,8 +1,8 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *GamerNet*
 
-Submitted by: **Your Name Here**
+Submitted by: **Omer Omer**
 
-This web app: **insert description**
+This web app: **Is a hub for gamers to find local tournaments, game release dates, and multiplayer LFG (Looking-For-Group) communities.**
 
 Time spent: **X** hours spent in total
 
