@@ -2,8 +2,8 @@ const Events = (props) => {
 
     return(
         <div className='Events'>
-            <h4>{props.events}</h4>
-            <h4>{props.location}</h4>
+            <h5>{props.events}</h5>
+            <h6>{props.location}</h6>
         </div>
     )
 }

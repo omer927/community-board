@@ -6,6 +6,11 @@ body{
   min-height: 100vh;
   scroll-behavior: smooth;
 }
+
+#root{
+  margin: 0;
+  text-align: center;
+}
 .App{
   margin-left: 60px;
   margin-right: 60px;
@@ -20,7 +25,6 @@ td{
 }
 
 .Events{
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -64,4 +68,24 @@ td{
 .card:hover{
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(77, 44, 145, 0.15);
+}
+
+h5{
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h6{
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button{
+  background-color: ;
+  cursor: pointer;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius:8px;
 }
