@@ -46,17 +46,12 @@ td{
 }
 
 .card{
-  color: black;
-  background: white;
-  box-shadow: 0 15px 25px #817c7c33;
-  font-size: medium;
-  backdrop-filter: blur(2px);
-  text-align: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  height: 450px;
-  border-radius: 10px 20px 30px 40px;
-  border-radius: 0 0 10px 10px;
+  width: 300px; /* Forces cards to stay a uniform, reasonable width */
+  border: 1px solid #ccc; /* Optional: adds a clean border */
+  border-radius: 8px; /* Optional: rounds the corners */
+  overflow: hidden; /* Keeps images clean within the card boundaries */
+  display: flex;
+  flex-direction: column; /* Stacks image, text, and button vertically */
 }
 
 .card img{
@@ -83,9 +78,17 @@ h6{
 }
 
 button{
-  background-color: ;
+  /*background-color: ; */
+
   cursor: pointer;
   padding: 10px 18px;
   margin: 5px;
   border-radius:8px;
+}
+.Container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
 }
